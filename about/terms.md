@@ -1,26 +1,24 @@
 ---
-layout: default
+layout: page
 title: Terms of Use
+subtitle: Website Usage Terms and Conditions
+last_updated: January 1, 2025
 ---
 
-<article class="article-page">
-
-# Terms of Use
-
-**Last Updated: January 1, 2025**
+## Acceptance of Terms
 
 By accessing and using The Meridian Post website ("the Website"), you accept and agree to be bound by these Terms of Use.
-
-## Acceptance of Terms
 
 By using this Website, you confirm that:
 
 1. You have read and understood these Terms of Use
-2. You have read and understood our [Legal Disclaimer](/global-times/about/disclaimer/)
-3. You have read and understood our [Standards & Methodology](/global-times/about/standards/)
+2. You have read and understood our [Legal Disclaimer]({{ '/about/disclaimer/' | relative_url }})
+3. You have read and understood our [Standards & Methodology]({{ '/about/standards/' | relative_url }})
 4. You agree to be bound by all applicable terms and policies
 
-If you do not agree with these terms, please do not use this Website.
+**If you do not agree with these terms, please do not use this Website.**
+
+---
 
 ## Description of Service
 
@@ -30,6 +28,8 @@ The Meridian Post is an experimental, AI-assisted publication that:
 - Uses artificial intelligence in content creation
 - Is not a professional news organization
 - Does not provide professional advice of any kind
+
+---
 
 ## User Responsibilities
 
@@ -52,53 +52,68 @@ By using this Website, you agree to:
 - Provide attribution when sharing our content
 - Respect third-party intellectual property rights
 
+---
+
 ## Intellectual Property
 
 ### Our Content
-Content on this Website is the property of The Meridian Post or its content creators. You may:
 
+Content on this Website is the property of The Meridian Post or its content creators.
+
+**You may:**
 - View and read content for personal use
 - Share content with proper attribution
 - Quote reasonable excerpts with attribution
 
-You may not:
+**You may not:**
 - Reproduce content for commercial purposes
 - Remove attribution or authorship information
 - Present content as your own work
 
 ### User Submissions
+
 If you submit corrections, feedback, or other content to us:
 - You grant us the right to use such submissions
 - You confirm you have the right to make such submissions
 - You waive any claims related to our use of submissions
 
+---
+
 ## Disclaimers and Limitations
 
 ### No Warranties
-This Website is provided "AS IS" without any warranties. See our [Legal Disclaimer](/global-times/about/disclaimer/) for complete details.
+This Website is provided "AS IS" without any warranties. See our [Legal Disclaimer]({{ '/about/disclaimer/' | relative_url }}) for complete details.
 
 ### Limitation of Liability
-We are not liable for any damages arising from your use of this Website. See our [Legal Disclaimer](/global-times/about/disclaimer/) for complete details.
+We are not liable for any damages arising from your use of this Website. See our [Legal Disclaimer]({{ '/about/disclaimer/' | relative_url }}) for complete details.
 
 ### AI Content Limitations
-AI-generated content may contain errors, biases, or inaccuracies. See our [Standards & Methodology](/global-times/about/standards/) for complete details.
+AI-generated content may contain errors, biases, or inaccuracies. See our [Standards & Methodology]({{ '/about/standards/' | relative_url }}) for complete details.
+
+---
 
 ## Third-Party Links
 
-This Website may contain links to third-party websites. We:
+This Website may contain links to third-party websites.
+
+**We:**
 - Do not control third-party websites
 - Are not responsible for third-party content
 - Do not endorse third-party websites or content
 - Are not liable for any harm from third-party websites
 
+---
+
 ## Privacy
 
-We do not:
+**We do not:**
 - Collect personal information through this Website
 - Use cookies for tracking purposes
 - Sell or share user data
 
 This Website is hosted on GitHub Pages, which may collect standard server logs. See GitHub's privacy policy for details.
+
+---
 
 ## Modifications
 
@@ -109,30 +124,36 @@ We reserve the right to:
 
 Continued use of the Website after changes constitutes acceptance of modified terms.
 
+---
+
 ## Termination
 
 We may terminate or restrict access to the Website at any time, for any reason, without notice.
+
+---
 
 ## Governing Law
 
 These Terms shall be governed by and construed in accordance with applicable laws, without regard to conflict of law principles.
 
-## Dispute Resolution
-
-Any disputes arising from these Terms or your use of the Website shall be resolved through appropriate legal channels in accordance with applicable law.
+---
 
 ## Severability
 
 If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
 
+---
+
 ## Entire Agreement
 
 These Terms, together with our Legal Disclaimer and Standards & Methodology, constitute the entire agreement between you and The Meridian Post regarding use of this Website.
 
+---
+
 ## Contact
 
 For questions about these Terms:
-- GitHub: [github.com/akz4ol/global-times](https://github.com/akz4ol/global-times)
+- **GitHub:** [github.com/akz4ol/global-times](https://github.com/akz4ol/global-times)
 
 ---
 
@@ -140,6 +161,4 @@ For questions about these Terms:
 
 ---
 
-**See also: [About Us](/global-times/about/) | [Standards & Methodology](/global-times/about/standards/) | [Legal Disclaimer](/global-times/about/disclaimer/)**
-
-</article>
+**See also:** [About Us]({{ '/about/' | relative_url }}) &#124; [Standards & Methodology]({{ '/about/standards/' | relative_url }}) &#124; [Legal Disclaimer]({{ '/about/disclaimer/' | relative_url }})

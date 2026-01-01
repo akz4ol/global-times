@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: page
 title: About Us
+subtitle: Understanding The Meridian Post
 ---
-
-<article class="article-page">
-
-# About The Meridian Post
 
 ## Who We Are
 
@@ -13,13 +10,18 @@ The Meridian Post is an independent, experimental digital publication exploring 
 
 **Important:** The Meridian Post is an AI-assisted publication. Content is generated, curated, and edited with the assistance of artificial intelligence systems. While we strive for accuracy, readers should verify important information through established news sources.
 
+---
+
 ## Our Mission
 
 We aim to demonstrate how AI tools can assist in:
+
 - Aggregating and synthesizing information from multiple sources
 - Providing multi-perspective analysis on complex topics
 - Creating accessible explanations of complicated issues
 - Exploring new formats for news delivery
+
+---
 
 ## What We Are NOT
 
@@ -30,21 +32,30 @@ To be completely clear:
 - **We are not staffed by professional journalists.** Our content is AI-assisted and should be evaluated accordingly.
 - **We do not conduct original investigations.** We synthesize and analyze publicly available information.
 
+---
+
 ## Our Team
 
 The Meridian Post is operated by independent developers and researchers interested in the future of media and AI. We do not employ traditional journalists or maintain a newsroom.
+
+---
 
 ## Funding
 
 The Meridian Post is a non-commercial project. We do not sell advertising, collect user data for commercial purposes, or generate revenue from our content.
 
+---
+
 ## Contact
 
 For inquiries, corrections, or feedback:
-- GitHub: [github.com/akz4ol/global-times](https://github.com/akz4ol/global-times)
+
+- **GitHub:** [github.com/akz4ol/global-times](https://github.com/akz4ol/global-times)
 
 ---
 
-**Please read our [Standards & Methodology](/global-times/about/standards/) and [Legal Disclaimer](/global-times/about/disclaimer/) for important information about how our content is created and the limitations of our publication.**
+## Important Links
 
-</article>
+- [Standards & Methodology]({{ '/about/standards/' | relative_url }}) — How our content is created
+- [Legal Disclaimer]({{ '/about/disclaimer/' | relative_url }}) — Limitations and liability
+- [Terms of Use]({{ '/about/terms/' | relative_url }}) — Usage terms

@@ -1,17 +1,11 @@
 ---
-layout: default
+layout: page
 title: Standards & Methodology
+subtitle: How Our Content Is Created
+last_updated: January 1, 2025
 ---
 
-<article class="article-page">
-
-# Standards & Methodology
-
-## How Our Content Is Created
-
-The Meridian Post uses artificial intelligence systems to assist in content creation. This page explains our methodology and the limitations readers should understand.
-
-### AI-Assisted Content Generation
+## AI-Assisted Content Generation
 
 Our articles are created with the assistance of large language models (LLMs). This means:
 
@@ -23,12 +17,18 @@ Our articles are created with the assistance of large language models (LLMs). Th
 
 4. **AI can make mistakes.** Language models can generate incorrect information, misattribute sources, or present outdated facts. This is sometimes called "hallucination."
 
-### What This Means for Readers
+---
 
-- **Verify important information.** Do not rely solely on our content for decisions affecting your health, finances, legal matters, or safety.
-- **Check primary sources.** When we reference studies, reports, or statements, verify them independently.
-- **Consider the date.** Information may become outdated. AI training data has cutoff dates.
-- **Read critically.** Apply the same skepticism you would to any media source.
+## What This Means for Readers
+
+| Action | Why It Matters |
+|--------|----------------|
+| **Verify important information** | Do not rely solely on our content for decisions affecting your health, finances, legal matters, or safety |
+| **Check primary sources** | When we reference studies, reports, or statements, verify them independently |
+| **Consider the date** | Information may become outdated. AI training data has cutoff dates |
+| **Read critically** | Apply the same skepticism you would to any media source |
+
+---
 
 ## Content Categories
 
@@ -41,17 +41,21 @@ We create educational content explaining complex topics. While we strive for acc
 ### Aggregation
 We may summarize or aggregate information from multiple sources. We do not claim original reporting.
 
+---
+
 ## What We Do NOT Do
 
-- **Original reporting:** We do not have reporters in the field.
-- **Interviews:** We do not conduct interviews with sources.
-- **Fact-checking in the journalistic sense:** We do not verify claims through direct investigation.
-- **Breaking news:** We do not cover live events or developing stories.
-- **Confidential sources:** We do not receive or protect confidential information.
+- **Original reporting** — We do not have reporters in the field
+- **Interviews** — We do not conduct interviews with sources
+- **Fact-checking in the journalistic sense** — We do not verify claims through direct investigation
+- **Breaking news** — We do not cover live events or developing stories
+- **Confidential sources** — We do not receive or protect confidential information
+
+---
 
 ## Verification Standards
 
-When we present factual claims, we aim to:
+When we present factual claims, we aim to indicate confidence levels:
 
 | Level | Meaning | Reader Action |
 |-------|---------|---------------|
@@ -62,6 +66,8 @@ When we present factual claims, we aim to:
 
 **Important:** These are internal guidelines, not guarantees. We may still make errors.
 
+---
+
 ## Corrections Policy
 
 If we become aware of errors:
@@ -69,7 +75,9 @@ If we become aware of errors:
 - Significant corrections will be noted
 - We cannot guarantee all errors will be caught
 
-To report an error, please open an issue on our GitHub repository.
+To report an error, please open an issue on our [GitHub repository](https://github.com/akz4ol/global-times).
+
+---
 
 ## Sources
 
@@ -81,20 +89,26 @@ We draw on publicly available information including:
 
 We do not have special access to information. We synthesize what is publicly available.
 
+---
+
 ## Limitations of AI
 
 Readers should understand that AI systems:
 
-- **Can generate plausible-sounding false information**
-- **May reflect biases present in training data**
-- **Cannot verify information in real-time**
-- **May present outdated information as current**
-- **Cannot exercise human judgment about ethics or sensitivity**
-- **May misunderstand context or nuance**
+- Can generate plausible-sounding false information
+- May reflect biases present in training data
+- Cannot verify information in real-time
+- May present outdated information as current
+- Cannot exercise human judgment about ethics or sensitivity
+- May misunderstand context or nuance
+
+---
 
 ## Our Commitment
 
-We are transparent about what we are and are not. We believe AI can assist in information delivery, but we do not claim to replace professional journalism. We encourage readers to:
+We are transparent about what we are and are not. We believe AI can assist in information delivery, but we do not claim to replace professional journalism.
+
+We encourage readers to:
 
 1. Support established news organizations
 2. Develop media literacy skills
@@ -103,6 +117,4 @@ We are transparent about what we are and are not. We believe AI can assist in in
 
 ---
 
-**See also: [Legal Disclaimer](/global-times/about/disclaimer/) | [About Us](/global-times/about/)**
-
-</article>
+**See also:** [Legal Disclaimer]({{ '/about/disclaimer/' | relative_url }}) &#124; [About Us]({{ '/about/' | relative_url }}) &#124; [Terms of Use]({{ '/about/terms/' | relative_url }})
