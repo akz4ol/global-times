@@ -2,7 +2,7 @@
 layout: article
 title: "What 2025 Holds for Global Democracy: Five Trends to Watch"
 subtitle: "From digital voting experiments to youth movements, the landscape of democratic governance continues to evolve"
-author: "Meridian Post Analysis Desk"
+author: "MeridAIn Post Analysis Desk"
 date: 2025-01-01T08:00:00Z
 section: world
 tags: [democracy, governance, global-trends, analysis]
@@ -49,8 +49,8 @@ Nations that invest in democratic infrastructure—civic education, independent 
 
 Democracy has never been a fixed destination but an ongoing project requiring each generation's active participation. The trends shaping 2025 suggest that project continues, with citizens worldwide seeking new ways to have meaningful voice in decisions affecting their lives.
 
-The Meridian Post will continue tracking these developments throughout the year, bringing analysis and diverse perspectives on governance innovations wherever they emerge.
+The MeridAIn Post will continue tracking these developments throughout the year, bringing analysis and diverse perspectives on governance innovations wherever they emerge.
 
 ---
 
-*This analysis represents the Meridian Post's independent assessment of global trends. We welcome reader perspectives and corrections.*
+*This analysis represents the MeridAIn Post's independent assessment of global trends. We welcome reader perspectives and corrections.*

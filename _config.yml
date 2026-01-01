@@ -84,8 +84,8 @@ analytics:
 
 # Podcast
 podcast:
-  title: "The Meridian Post Daily Briefing"
-  description: "Your daily audio news digest"
+  title: "The MeridAIn Post Daily Briefing"
+  description: "Your daily AI-powered audio news digest"
   feed_url: /podcasts/feed.xml
 
 # Exclude from build

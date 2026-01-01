@@ -43,7 +43,7 @@ Be skeptical of narratives that form too quickly. Genuine understanding of compl
 
 ## Our Commitment
 
-At The Meridian Post, we aim to prioritize accuracy over speed, context over brevity, and understanding over attention capture. We would rather be right than first.
+At The MeridAIn Post, we aim to prioritize accuracy over speed, context over brevity, and understanding over attention capture. We would rather be right than first.
 
 This is not always comfortable. The pull of real-time engagement is strong. The fear of irrelevance in a fast-moving landscape is real. But we believe readers are better served by journalism that resists these pressures.
 
@@ -51,4 +51,4 @@ The news will wait. Your understanding doesn't have to be instant. And the stori
 
 ---
 
-*This editorial represents the views of The Meridian Post editorial board. We welcome reader responses.*
+*This editorial represents the views of The MeridAIn Post editorial board. We welcome reader responses.*

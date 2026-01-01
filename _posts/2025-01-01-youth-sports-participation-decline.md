@@ -2,7 +2,7 @@
 layout: article
 title: "The Changing Game: Why Youth Sports Participation Is Shifting"
 subtitle: "Rising costs, increased pressure, and changing interests are reshaping how young people engage with athletics"
-author: "Meridian Post Sports Desk"
+author: "MeridAIn Post Sports Desk"
 date: 2025-01-01T15:00:00Z
 section: sports
 tags: [youth-sports, athletics, parenting, recreation]
@@ -47,4 +47,4 @@ The answer likely involves rethinking assumptions about what youth sports should
 
 ---
 
-*This analysis draws on sports participation research and expert commentary. The Meridian Post welcomes perspectives from coaches, parents, and young athletes.*
+*This analysis draws on sports participation research and expert commentary. The MeridAIn Post welcomes perspectives from coaches, parents, and young athletes.*

@@ -2,7 +2,7 @@
 layout: article
 title: "New Approaches to Ocean Plastic: From Cleanup to Prevention"
 subtitle: "Scientists and entrepreneurs are developing innovative solutions to marine pollution, but experts stress prevention remains key"
-author: "Meridian Post Science Desk"
+author: "MeridAIn Post Science Desk"
 date: 2025-01-01T11:00:00Z
 section: science
 tags: [environment, oceans, plastic-pollution, innovation]
@@ -49,4 +49,4 @@ Success will require sustained effort across multiple fronts—cleanup and preve
 
 ---
 
-*This analysis synthesizes publicly available research on ocean plastic solutions. The Meridian Post welcomes expert perspectives and corrections.*
+*This analysis synthesizes publicly available research on ocean plastic solutions. The MeridAIn Post welcomes expert perspectives and corrections.*

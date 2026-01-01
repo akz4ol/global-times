@@ -2,7 +2,7 @@
 layout: article
 title: "The Quiet Reinvention of Public Libraries"
 subtitle: "Far from obsolete, libraries are transforming into essential community infrastructure for the digital age"
-author: "Meridian Post Culture Desk"
+author: "MeridAIn Post Culture Desk"
 date: 2025-01-01T13:00:00Z
 section: culture
 tags: [libraries, community, digital-divide, public-spaces]

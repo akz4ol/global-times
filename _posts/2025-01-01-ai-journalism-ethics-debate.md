@@ -2,7 +2,7 @@
 layout: article
 title: "The Newsroom of Tomorrow: How AI Is Reshaping Journalism"
 subtitle: "As artificial intelligence tools become ubiquitous, news organizations grapple with transparency, accuracy, and the human element"
-author: "Meridian Post Technology Desk"
+author: "MeridAIn Post Technology Desk"
 date: 2025-01-01T10:00:00Z
 section: technology
 tags: [artificial-intelligence, journalism, media, ethics]
@@ -51,8 +51,8 @@ News organizations that are transparent about their methods, rigorous about accu
 
 The question is not whether AI will be part of journalism's future—it already is. The question is whether news organizations will deploy these tools thoughtfully, with appropriate safeguards, transparency, and continued investment in the human skills no algorithm can replace.
 
-The Meridian Post believes in transparency about our methods. Where AI tools assist our work, we aim to be clear about that assistance while maintaining human editorial responsibility for every word we publish.
+The MeridAIn Post believes in transparency about our methods. Where AI tools assist our work, we aim to be clear about that assistance while maintaining human editorial responsibility for every word we publish.
 
 ---
 
-*The Meridian Post uses AI tools in our workflow and maintains human editorial oversight of all published content. We welcome reader feedback on our practices.*
+*The MeridAIn Post uses AI tools in our workflow and maintains human editorial oversight of all published content. We welcome reader feedback on our practices.*

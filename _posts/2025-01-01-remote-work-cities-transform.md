@@ -2,7 +2,7 @@
 layout: article
 title: "The Great Reshuffle: How Remote Work Is Redrawing the Urban Map"
 subtitle: "Five years after the remote work revolution began, cities worldwide are adapting to new patterns of living and working"
-author: "Meridian Post Business Desk"
+author: "MeridAIn Post Business Desk"
 date: 2025-01-01T09:00:00Z
 section: business
 tags: [remote-work, cities, economy, urban-planning]
@@ -47,4 +47,4 @@ What seems clear is that the pre-pandemic assumption—that serious careers requ
 
 ---
 
-*This analysis draws on publicly available research and expert commentary. The Meridian Post welcomes reader perspectives on how remote work has affected your community.*
+*This analysis draws on publicly available research and expert commentary. The MeridAIn Post welcomes reader perspectives on how remote work has affected your community.*

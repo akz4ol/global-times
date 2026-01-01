@@ -2,7 +2,7 @@
 layout: article
 title: "The Workplace Mental Health Revolution: Progress and Pitfalls"
 subtitle: "Corporate wellness programs have expanded dramatically, but questions remain about effectiveness and authenticity"
-author: "Meridian Post Health Desk"
+author: "MeridAIn Post Health Desk"
 date: 2025-01-01T12:00:00Z
 section: health
 tags: [mental-health, workplace, wellness, corporate-culture]
@@ -51,4 +51,4 @@ But the gap between rhetoric and reality remains significant. The organizations 
 
 ---
 
-*This analysis draws on publicly available workplace mental health research. The Meridian Post welcomes reader perspectives and expert input.*
+*This analysis draws on publicly available workplace mental health research. The MeridAIn Post welcomes reader perspectives and expert input.*

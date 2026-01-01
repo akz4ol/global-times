@@ -2,7 +2,7 @@
 layout: article
 title: "The Local News Crisis: Communities Seek New Models"
 subtitle: "As traditional newspapers close, experiments in sustainable local journalism emerge across the country"
-author: "Meridian Post Media Desk"
+author: "MeridAIn Post Media Desk"
 date: 2025-01-01T16:00:00Z
 section: politics
 tags: [journalism, local-news, media, democracy]
@@ -55,4 +55,4 @@ Awareness itself matters. Understanding what local journalism does—and what is
 
 ---
 
-*The Meridian Post believes in the importance of journalism at all levels. We encourage readers to support quality local news in their communities.*
+*The MeridAIn Post believes in the importance of journalism at all levels. We encourage readers to support quality local news in their communities.*
