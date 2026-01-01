@@ -1,11 +1,11 @@
-# Global Times - Digital Newspaper
+# The Meridian Post - Digital Newspaper
 # GitHub Pages Jekyll Configuration
 
-title: The Global Times
-tagline: "Facts Before Narratives"
-description: "An autonomous, multi-perspective global news publication delivering verified, bias-aware journalism."
-url: ""  # Will be set to GitHub Pages URL
-baseurl: ""
+title: The Meridian Post
+tagline: "Where Every Story Finds Its True North"
+description: "An independent, multi-perspective news publication delivering verified, balanced journalism from around the globe."
+url: "https://akz4ol.github.io"
+baseurl: "/global-times"
 
 # Branding
 logo: /assets/images/logo.svg
@@ -14,24 +14,13 @@ favicon: /assets/images/favicon.ico
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /editions/:year/:month/:day/:title/
-
-# Collections
-collections:
-  articles:
-    output: true
-    permalink: /articles/:path/
+permalink: /:year/:month/:day/:title/
 
 # Defaults
 defaults:
   - scope:
       path: ""
       type: "posts"
-    values:
-      layout: "article"
-  - scope:
-      path: ""
-      type: "articles"
     values:
       layout: "article"
 
@@ -76,16 +65,16 @@ sections:
 
 # Social
 social:
-  twitter: globaltimes
-  github: globaltimes
+  twitter: meridianpost
+  github: akz4ol
 
 # Analytics (privacy-respecting)
 analytics:
-  provider: false  # Set to plausible or fathom if needed
+  provider: false
 
 # Podcast
 podcast:
-  title: "Global Times Daily Briefing"
+  title: "The Meridian Post Daily Briefing"
   description: "Your daily audio news digest"
   feed_url: /podcasts/feed.xml
 

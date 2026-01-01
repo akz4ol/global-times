@@ -9,28 +9,64 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700;900&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@400;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="{{ '/assets/css/newspaper.css' | relative_url }}">
-
-  <!-- SEO -->
-  {% seo %}
-
-  <!-- Feed -->
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
-
-  <!-- Favicon -->
-  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
 </head>
 <body>
-  {% include header.html %}
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-top">
+      <span class="date">{{ site.time | date: "%A, %B %d, %Y" }}</span>
+    </div>
+    <div class="masthead">
+      <h1 class="site-title">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </h1>
+      <p class="tagline">{{ site.tagline }}</p>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+        {% for section in site.sections %}
+        <li><a href="{{ '/sections/' | append: section.id | append: '/' | relative_url }}" {% if page.section == section.id %}class="active"{% endif %}>{{ section.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
 
-  <main>
+  <main class="site-main">
     {{ content }}
   </main>
 
-  {% include footer.html %}
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>{{ site.title }}</h3>
+        <p>{{ site.tagline }}</p>
+      </div>
+      <div class="footer-sections">
+        <h4>Sections</h4>
+        <ul>
+          {% for section in site.sections limit:5 %}
+          <li><a href="{{ '/sections/' | append: section.id | append: '/' | relative_url }}">{{ section.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-about">
+        <h4>About</h4>
+        <ul>
+          <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">Our Standards</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. Independent journalism for a connected world.</p>
+    </div>
+  </footer>
 
   <script src="{{ '/assets/js/app.js' | relative_url }}"></script>
 </body>
