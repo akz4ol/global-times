@@ -6,7 +6,8 @@ subtitle: Regulation, Government & Standards
 
 ## Latest Policy News
 
-*This section covers AI policy, regulation, and governance developments worldwide.*
+### [New AI Regulations Take Effect Across 38 States in 2026](/global-times/2026/01/01/new-ai-laws-take-effect-2026/)
+*January 1, 2026* — Laws address healthcare AI, election deepfakes, and companion chatbots as states move to regulate artificial intelligence.
 
 ---
 
@@ -24,20 +25,20 @@ subtitle: Regulation, Government & Standards
 
 | Region | Organizations |
 |--------|---------------|
-| **United States** | NIST, FTC, OSTP, Congress |
+| **United States** | NIST, FTC, OSTP, State Legislatures |
 | **European Union** | EU AI Office, European Commission |
 | **United Kingdom** | UK AI Safety Institute, DSIT |
 | **International** | OECD, G7, UN |
 
 ---
 
-## Coming Soon
+## 2026 Regulatory Highlights
 
-We are building out this section with:
-- Policy tracker
-- Regulatory analysis
-- Standards updates
-- International coordination news
+- **38 states** passed AI legislation in 2025
+- California AI Safety Act establishes whistleblower protections
+- Healthcare AI disclosure requirements now in effect
+- Election deepfake restrictions active in multiple states
+- Companion chatbot safety protocols mandated
 
 ---
 

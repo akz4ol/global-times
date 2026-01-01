@@ -10,6 +10,22 @@ The MeridAIn Post AI Hub is your comprehensive source for artificial intelligenc
 
 ---
 
+## Top Stories
+
+### [AI Captured Nearly 50% of Global Venture Funding in 2025](/global-times/2026/01/01/ai-funding-2025-record-breaking-year/)
+OpenAI and Anthropic alone accounted for 14% of all global venture investment as the sector saw $202.3 billion invested.
+
+### [New AI Regulations Take Effect Across 38 States](/global-times/2026/01/01/new-ai-laws-take-effect-2026/)
+Laws address healthcare AI, election deepfakes, and companion chatbots as 2026 brings sweeping new regulations.
+
+### [Google's Gemini 3 Tops Benchmarks](/global-times/2026/01/01/google-gemini-3-research-breakthroughs/)
+Major research advances from quantum computing to healthcare diagnostics reshape the AI landscape.
+
+### [Tech Giants Form Agentic AI Foundation](/global-times/2026/01/01/agentic-ai-foundation-launches/)
+OpenAI, Anthropic, Google, and Microsoft join forces to create open standards for AI agents.
+
+---
+
 ## Sections
 
 <div class="ai-sections-grid">
@@ -36,6 +52,18 @@ Analysis, commentary, and expert perspectives on AI trends and developments.
 
 ---
 
+## Quick Stats: AI in 2025
+
+| Metric | Value |
+|--------|-------|
+| Global AI Investment | $202.3 billion |
+| YoY Growth | 75% |
+| States with AI Laws | 38 |
+| OpenAI Valuation | $500 billion |
+| Anthropic Valuation | $183 billion |
+
+---
+
 ## Sources We Monitor
 
 | Category | Sources |
@@ -48,21 +76,8 @@ Analysis, commentary, and expert perspectives on AI trends and developments.
 
 ---
 
-## How We Work
-
-1. **Aggregation**: We scan multiple sources for AI-related news and developments
-2. **Synthesis**: We summarize and contextualize technical content for general audiences
-3. **Categorization**: We organize content by topic for easy navigation
-4. **Attribution**: We always link to original sources
-
----
-
 ## Important Notice
 
 This section uses AI to aggregate and summarize news from other sources. We are not conducting original reporting. Always verify important information with primary sources.
 
 See our [Standards & Methodology](/global-times/about/standards/) and [Legal Disclaimer](/global-times/about/disclaimer/) for more information.
-
----
-
-*Check back regularly for the latest AI developments.*
