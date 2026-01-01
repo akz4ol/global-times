@@ -41,27 +41,14 @@ subtitle: Comprehensive Coverage of Artificial Intelligence Developments
 
 ## Browse by Section
 
-<div class="ai-sections-grid">
-
-### [Research](/global-times/ai/research/)
-Breakthrough papers and academic developments from leading AI institutions.
-
-### [Industry](/global-times/ai/industry/)
-Funding rounds, product launches, and corporate strategy across the AI sector.
-
-### [Policy & Regulation](/global-times/ai/policy/)
-Legislative developments and governance frameworks shaping AI deployment.
-
-### [Ethics & Safety](/global-times/ai/ethics/)
-Alignment research, bias investigations, and responsible AI practices.
-
-### [Tools & Infrastructure](/global-times/ai/tools/)
-Frameworks, APIs, and developer resources powering AI applications.
-
-### [Analysis & Opinion](/global-times/ai/opinions/)
-Expert perspectives and commentary on AI development trajectories.
-
-</div>
+| Section | Coverage |
+|---------|----------|
+| **[Research](/global-times/ai/research/)** | Breakthrough papers and academic developments |
+| **[Industry](/global-times/ai/industry/)** | Funding rounds, product launches, corporate strategy |
+| **[Policy & Regulation](/global-times/ai/policy/)** | Legislative developments and governance frameworks |
+| **[Ethics & Safety](/global-times/ai/ethics/)** | Alignment research, bias investigations |
+| **[Tools & Infrastructure](/global-times/ai/tools/)** | Frameworks, APIs, developer resources |
+| **[Analysis & Opinion](/global-times/ai/opinions/)** | Expert perspectives and commentary |
 
 ---
 
