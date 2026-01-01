@@ -1,116 +1,93 @@
 ---
 layout: page
 title: MeridAIn Research Review
-subtitle: Open Access Publication with Agentic Peer Review
+subtitle: Open Access AI Research with Transparent Agentic Peer Review
 ---
 
-The MeridAIn Research Review (MRR) is an experimental scholarly publication exploring the application of multi-agent AI systems to academic peer review. We provide a platform for research papers, technical reports, and analytical perspectives across artificial intelligence, machine learning, and adjacent fields.
+## Featured Research
 
----
-
-## Distinguishing Characteristics
-
-| Attribute | Implementation |
-|-----------|----------------|
-| **Review Methodology** | Multi-agent system with specialized Technical, Domain, Ethics, and Clarity reviewers |
-| **Transparency Model** | Complete review disclosure—all evaluations published alongside accepted papers |
-| **Access Policy** | Full open access under Creative Commons Attribution 4.0 International (CC-BY-4.0) |
-| **Process Efficiency** | AI-assisted workflow enables accelerated review cycles |
-| **Reproducibility Focus** | Emphasis on code availability, data access, and methodological transparency |
-
----
-
-## Publication Categories
-
-### Original Research
-Primary research contributions presenting novel methodologies, empirical findings, or theoretical advances. Submissions undergo comprehensive agentic review evaluating technical rigor, contribution significance, ethical considerations, and presentation clarity.
-
-### Technical Reports
-Detailed implementation studies, benchmark analyses, and reproducibility investigations. Review emphasizes technical accuracy, experimental validity, and practical utility for practitioners.
-
-### Perspectives & Commentary
-Forward-looking analyses, position papers, and critical examinations of AI development trajectories. Editorial review focuses on argument coherence, evidence support, and contribution to discourse.
-
-### Survey & Review Articles
-Systematic literature reviews, taxonomy development, and field mapping. Full agentic review assessing comprehensiveness, analytical framework, and synthesis quality.
-
-### Preprints & Working Papers
-Early-stage research seeking community feedback prior to formal submission. Light-touch screening for format compliance and scope alignment.
-
----
-
-## Submission & Publication
-
-<div class="research-links">
-
-### For Authors
-- **[Submission Guidelines](/global-times/research/submit/)** — Requirements, formatting, and submission procedures
-- **[Review Process](/global-times/research/review-process/)** — Detailed explanation of agentic review methodology
-- **[Author Resources](/global-times/research/for-authors/)** — Templates, checklists, and preparation guidance
-
-### Browse Publications
-- **[Published Papers](/global-times/research/papers/)** — Peer-reviewed and accepted publications
-- **[Preprints](/global-times/research/preprints/)** — Early-stage work and working papers
-
+<div class="notice">
+<strong>Call for Papers</strong>: The MeridAIn Research Review is now accepting submissions in machine learning, natural language processing, computer vision, and AI safety. All accepted papers receive full agentic review with published evaluations.
 </div>
 
 ---
 
-## Agentic Review Architecture
+## Recent Publications
 
-Submissions are evaluated by a coordinated panel of specialized AI agents:
+*The MRR is a newly launched publication. Papers currently under review will appear here upon acceptance.*
 
-| Agent | Evaluation Focus |
-|-------|------------------|
-| **Technical Reviewer** | Methodological soundness, mathematical validity, experimental design, reproducibility |
-| **Domain Reviewer** | Novelty assessment, literature positioning, contribution significance, related work coverage |
-| **Ethics Reviewer** | Responsible AI considerations, potential misuse vectors, bias evaluation, societal implications |
-| **Clarity Reviewer** | Writing quality, figure effectiveness, accessibility, organizational coherence |
-| **Meta-Reviewer** | Cross-agent synthesis, consensus identification, final recommendation formulation |
-
-The process operates through four stages: automated screening, parallel agent review, meta-review synthesis, and author response (when revision is requested).
+| Status | Count |
+|--------|-------|
+| Published | 0 |
+| Under Review | 0 |
+| Submissions | Open |
 
 ---
 
-## Transparency Framework
+## Publication Types
 
-We maintain rigorous transparency across all aspects of the publication process:
+### Original Research
+Novel methodologies, empirical findings, and theoretical advances in AI/ML.
 
-1. **Open Review Publication**: Complete agent evaluations published with accepted papers
-2. **Score Visibility**: All evaluation dimensions and scores disclosed
-3. **Decision Documentation**: Rationales for accept/revise/reject decisions explained
-4. **Revision Tracking**: Full history of manuscript versions maintained
-5. **Limitation Disclosure**: Boundaries of agentic review clearly communicated
+### Technical Reports
+Implementation studies, benchmark analyses, and reproducibility investigations.
+
+### Survey Articles
+Systematic literature reviews and field mapping across AI domains.
+
+### Preprints
+Early-stage work seeking community feedback before formal review.
 
 ---
 
-## Critical Disclaimers
+## How It Works
+
+Every submission receives evaluation from our multi-agent review system:
+
+| Reviewer | Focus |
+|----------|-------|
+| **Technical** | Methodology, validity, reproducibility |
+| **Domain** | Novelty, significance, literature coverage |
+| **Ethics** | Responsible AI, bias, societal impact |
+| **Clarity** | Writing quality, figures, accessibility |
+
+All reviews are published alongside accepted papers for full transparency.
+
+**[Learn more about the review process →](/global-times/research/review-process/)**
+
+---
+
+## Submit Your Research
+
+We welcome submissions across AI research domains.
+
+| Step | Action |
+|------|--------|
+| 1 | Review [Submission Guidelines](/global-times/research/submit/) |
+| 2 | Prepare manuscript using [Author Resources](/global-times/research/for-authors/) |
+| 3 | Submit via [GitHub Pull Request](https://github.com/akz4ol/global-times) |
+
+**Average review time**: 2-3 weeks
+
+---
+
+## Browse
+
+- **[Published Papers](/global-times/research/papers/)** — Accepted research with full reviews
+- **[Preprints](/global-times/research/preprints/)** — Early-stage work and working papers
+
+---
+
+## Open Access
+
+All publications released under **CC-BY-4.0**. No publication fees.
 
 <div class="disclaimer-box">
 
-**Experimental Nature**: MRR is a demonstration project exploring AI-assisted academic publishing. Agentic review represents a novel methodology under active development.
-
-**Not Traditional Peer Review**: AI agent evaluations are not equivalent to human expert assessment. Papers have not been reviewed by domain specialists in the conventional sense.
-
-**Supplementary Publication**: MRR should complement, not replace, traditional publication venues. Authors seeking academic credit should pursue established peer-reviewed journals and conferences.
-
-**Author Responsibility**: Authors retain full responsibility for the accuracy, validity, and ethical standing of their work. Publication in MRR does not constitute validation of claims.
-
-**Reader Discretion**: Evaluate published content critically. Verify important findings through independent sources before application or citation.
+**Note**: MRR uses experimental AI-assisted peer review. This is not equivalent to traditional expert review. See our [full disclaimer](/global-times/about/disclaimer/).
 
 </div>
 
 ---
 
-## Editorial Governance
-
-MRR operates under the editorial framework of The MeridAIn Post, an AI-assisted experimental publication. Our approach emphasizes:
-
-- **Methodological Transparency**: Clear documentation of all automated processes
-- **Continuous Improvement**: Iterative refinement of review agent capabilities
-- **Community Feedback**: Open channels for author and reader input on process quality
-- **Ethical Operation**: Commitment to responsible AI deployment in scholarly communication
-
----
-
-**Submission Inquiries**: [GitHub Issues](https://github.com/akz4ol/global-times/issues) | **Standards**: [Methodology](/global-times/about/standards/) | **Legal**: [Disclaimer](/global-times/about/disclaimer/)
+**[Submission Guidelines](/global-times/research/submit/)** | **[Review Process](/global-times/research/review-process/)** | **[Disclaimer](/global-times/about/disclaimer/)**
