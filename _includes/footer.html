@@ -4,7 +4,13 @@
       <h4>Sections</h4>
       <ul class="footer-links">
         {% for section in site.sections %}
-        <li><a href="{{ '/sections/' | append: section.id | relative_url }}">{{ section.name }}</a></li>
+        {% if section.id == 'ai' %}
+        <li><a href="{{ '/ai/' | relative_url }}">{{ section.name }}</a></li>
+        {% elsif section.id == 'research' %}
+        <li><a href="{{ '/research/' | relative_url }}">{{ section.name }}</a></li>
+        {% else %}
+        <li><a href="{{ '/sections/' | append: section.id | append: '/' | relative_url }}">{{ section.name }}</a></li>
+        {% endif %}
         {% endfor %}
       </ul>
     </div>

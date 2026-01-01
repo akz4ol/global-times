@@ -4,9 +4,15 @@ layout: default
 <article class="article-page">
   <header class="article-header">
     {% if page.section %}
-    <a href="{{ '/sections/' | append: page.section | relative_url }}" class="article-section-link">
+    {% if page.section == 'ai' %}
+    <a href="{{ '/ai/' | relative_url }}" class="article-section-link">AI Hub</a>
+    {% elsif page.section == 'research' %}
+    <a href="{{ '/research/' | relative_url }}" class="article-section-link">Research</a>
+    {% else %}
+    <a href="{{ '/sections/' | append: page.section | append: '/' | relative_url }}" class="article-section-link">
       {{ page.section | capitalize }}
     </a>
+    {% endif %}
     {% endif %}
 
     <h1 class="article-headline">{{ page.title }}</h1>

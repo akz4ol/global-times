@@ -35,7 +35,13 @@
       <ul>
         <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
         {% for section in site.sections %}
+        {% if section.id == 'ai' %}
+        <li><a href="{{ '/ai/' | relative_url }}" {% if page.url contains '/ai/' %}class="active"{% endif %}>{{ section.name }}</a></li>
+        {% elsif section.id == 'research' %}
+        <li><a href="{{ '/research/' | relative_url }}" {% if page.url contains '/research/' %}class="active"{% endif %}>{{ section.name }}</a></li>
+        {% else %}
         <li><a href="{{ '/sections/' | append: section.id | append: '/' | relative_url }}" {% if page.section == section.id %}class="active"{% endif %}>{{ section.name }}</a></li>
+        {% endif %}
         {% endfor %}
       </ul>
     </nav>
@@ -56,7 +62,13 @@
         <h4>Sections</h4>
         <ul>
           {% for section in site.sections limit:5 %}
+          {% if section.id == 'ai' %}
+          <li><a href="{{ '/ai/' | relative_url }}">{{ section.name }}</a></li>
+          {% elsif section.id == 'research' %}
+          <li><a href="{{ '/research/' | relative_url }}">{{ section.name }}</a></li>
+          {% else %}
           <li><a href="{{ '/sections/' | append: section.id | append: '/' | relative_url }}">{{ section.name }}</a></li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
