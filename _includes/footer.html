@@ -1,0 +1,45 @@
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-section">
+      <h4>Sections</h4>
+      <ul class="footer-links">
+        {% for section in site.sections %}
+        <li><a href="{{ '/sections/' | append: section.id | relative_url }}">{{ section.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Media</h4>
+      <ul class="footer-links">
+        <li><a href="{{ '/podcasts/' | relative_url }}">Podcasts</a></li>
+        <li><a href="{{ '/editions/' | relative_url }}">Edition Archive</a></li>
+        <li><a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>About</h4>
+      <ul class="footer-links">
+        <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
+        <li><a href="{{ '/about/methodology' | relative_url }}">Our Methodology</a></li>
+        <li><a href="{{ '/about/ethics' | relative_url }}">Ethics Policy</a></li>
+        <li><a href="{{ '/about/corrections' | relative_url }}">Corrections</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Connect</h4>
+      <ul class="footer-links">
+        <li><a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" rel="noopener">Twitter</a></li>
+        <li><a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. Facts Before Narratives.</p>
+    <p><small>An autonomous, AI-powered news publication committed to verified, multi-perspective journalism.</small></p>
+  </div>
+</footer>

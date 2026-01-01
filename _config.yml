@@ -1,0 +1,104 @@
+# Global Times - Digital Newspaper
+# GitHub Pages Jekyll Configuration
+
+title: The Global Times
+tagline: "Facts Before Narratives"
+description: "An autonomous, multi-perspective global news publication delivering verified, bias-aware journalism."
+url: ""  # Will be set to GitHub Pages URL
+baseurl: ""
+
+# Branding
+logo: /assets/images/logo.svg
+favicon: /assets/images/favicon.ico
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /editions/:year/:month/:day/:title/
+
+# Collections
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"
+
+# Sections
+sections:
+  - id: world
+    name: World
+    description: International news and global affairs
+    color: "#1E3A5F"
+  - id: politics
+    name: Politics
+    description: Government, elections, and policy
+    color: "#8B0000"
+  - id: business
+    name: Business
+    description: Markets, economy, and companies
+    color: "#2F4F4F"
+  - id: technology
+    name: Technology
+    description: Tech, AI, and innovation
+    color: "#4A0080"
+  - id: science
+    name: Science
+    description: Research, discoveries, and exploration
+    color: "#006400"
+  - id: health
+    name: Health
+    description: Medicine, wellness, and public health
+    color: "#008B8B"
+  - id: culture
+    name: Culture
+    description: Arts, entertainment, and society
+    color: "#8B4513"
+  - id: opinion
+    name: Opinion
+    description: Editorials, analysis, and commentary
+    color: "#4A4A4A"
+  - id: sports
+    name: Sports
+    description: Scores, news, and features
+    color: "#228B22"
+
+# Social
+social:
+  twitter: globaltimes
+  github: globaltimes
+
+# Analytics (privacy-respecting)
+analytics:
+  provider: false  # Set to plausible or fathom if needed
+
+# Podcast
+podcast:
+  title: "Global Times Daily Briefing"
+  description: "Your daily audio news digest"
+  feed_url: /podcasts/feed.xml
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Plugins (GitHub Pages compatible)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

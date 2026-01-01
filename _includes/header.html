@@ -1,0 +1,32 @@
+<!-- Breaking News Banner (if enabled) -->
+{% if site.breaking_news %}
+<div class="breaking-banner">
+  <span class="breaking-label">Breaking</span>
+  <span class="breaking-text">{{ site.breaking_news }}</span>
+</div>
+{% endif %}
+
+<!-- Masthead -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="masthead-date">{{ site.time | date: "%A, %B %d, %Y" }}</p>
+    <h1 class="masthead-title">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </h1>
+    <p class="masthead-tagline">{{ site.tagline }}</p>
+  </div>
+</header>
+
+<!-- Navigation -->
+<nav class="nav-main" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+    {% for section in site.sections %}
+    <a href="{{ '/sections/' | append: section.id | relative_url }}"
+       class="nav-link {% if page.section == section.id %}active{% endif %}">
+      {{ section.name }}
+    </a>
+    {% endfor %}
+    <a href="{{ '/podcasts/' | relative_url }}" class="nav-link {% if page.url contains 'podcasts' %}active{% endif %}">Podcasts</a>
+  </div>
+</nav>

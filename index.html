@@ -1,0 +1,116 @@
+---
+layout: default
+title: Home
+---
+
+<div class="container">
+  <div class="main-content">
+    <div class="primary-content">
+
+      <!-- Hero Story -->
+      {% assign hero = site.posts.first %}
+      {% if hero %}
+      <div class="hero-story">
+        {% if hero.image %}
+        <a href="{{ hero.url | relative_url }}">
+          <img src="{{ hero.image.url }}" alt="" class="hero-image">
+        </a>
+        {% endif %}
+        <span class="hero-section-label">{{ hero.section | default: "Top Story" | capitalize }}</span>
+        <h2 class="hero-headline">
+          <a href="{{ hero.url | relative_url }}">{{ hero.title }}</a>
+        </h2>
+        <p class="hero-summary">{{ hero.subtitle | default: hero.excerpt | strip_html | truncate: 250 }}</p>
+        <p class="hero-meta">
+          By {{ hero.author | default: "Staff" }} &middot; {{ hero.date | date: "%B %d, %Y" }}
+          {% if hero.reading_time %} &middot; {{ hero.reading_time }} min read{% endif %}
+        </p>
+      </div>
+      {% endif %}
+
+      <!-- Top Stories Grid -->
+      <div class="front-page-grid">
+        <div class="main-stories">
+          <h2 class="section-label">Top Stories</h2>
+          <div class="story-grid">
+            {% for post in site.posts offset:1 limit:6 %}
+            {% include article-card.html post=post show_summary=true %}
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="secondary-stories">
+          <!-- Opinion Section -->
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">Opinion</h3>
+            {% assign opinions = site.posts | where: "section", "opinion" %}
+            {% for post in opinions limit:3 %}
+            <article class="article-card">
+              <h4 class="article-card-headline">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h4>
+              <p class="article-card-meta">{{ post.author }}</p>
+            </article>
+            {% endfor %}
+          </div>
+
+          <!-- Podcast Section -->
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">🎧 Daily Briefing</h3>
+            {% assign podcasts = site.posts | where: "category", "podcast" %}
+            {% for podcast in podcasts limit:1 %}
+            <div class="podcast-player">
+              <p><strong>{{ podcast.title }}</strong></p>
+              <p class="text-muted">{{ podcast.date | date: "%B %d" }}</p>
+              {% if podcast.audio_url %}
+              <audio controls src="{{ podcast.audio_url }}" style="width:100%;margin-top:0.5rem;"></audio>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Highlights -->
+      {% for section in site.sections limit:4 %}
+      <div class="section-highlight">
+        <h2 class="section-label">
+          <a href="{{ '/sections/' | append: section.id | relative_url }}">{{ section.name }}</a>
+        </h2>
+        <div class="story-grid">
+          {% assign section_posts = site.posts | where: "section", section.id %}
+          {% for post in section_posts limit:3 %}
+          {% include article-card.html post=post %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">Most Read</h3>
+        <ol class="most-read-list">
+          {% for post in site.posts limit:5 %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ol>
+      </div>
+
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">Latest</h3>
+        {% for post in site.posts limit:8 %}
+        <article class="article-card">
+          <span class="article-card-section">{{ post.section | capitalize }}</span>
+          <h4 class="article-card-headline">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h4>
+          <p class="article-card-meta">{{ post.date | date: "%I:%M %p" }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </aside>
+  </div>
+</div>

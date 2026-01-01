@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<div class="section-header">
+  <div class="container">
+    <h1 class="section-title">{{ page.title }}</h1>
+    <p class="section-description">{{ page.description }}</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="main-content">
+    <div class="section-content">
+      {% if page.featured %}
+      <div class="hero-story">
+        {% assign featured = site.posts | where: "slug", page.featured | first %}
+        {% if featured %}
+        {% if featured.image %}
+        <img src="{{ featured.image.url }}" alt="" class="hero-image">
+        {% endif %}
+        <span class="hero-section-label">Featured</span>
+        <h2 class="hero-headline">
+          <a href="{{ featured.url | relative_url }}">{{ featured.title }}</a>
+        </h2>
+        <p class="hero-summary">{{ featured.excerpt | strip_html | truncate: 200 }}</p>
+        <p class="hero-meta">{{ featured.date | date: "%B %d, %Y" }}</p>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <div class="story-grid">
+        {% assign section_posts = site.posts | where: "section", page.section_id %}
+        {% for post in section_posts limit: 12 %}
+        {% unless post.slug == page.featured %}
+        <article class="article-card">
+          {% if post.image %}
+          <img src="{{ post.image.url }}" alt="" class="article-card-image">
+          {% endif %}
+          <h3 class="article-card-headline">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          <p class="article-card-summary">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          <p class="article-card-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+        </article>
+        {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">Latest in {{ page.title }}</h3>
+        <ul class="sidebar-list">
+          {% for post in section_posts limit: 5 %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </aside>
+  </div>
+</div>

@@ -1,0 +1,84 @@
+---
+layout: default
+---
+<article class="article-page">
+  <header class="article-header">
+    {% if page.section %}
+    <a href="{{ '/sections/' | append: page.section | relative_url }}" class="article-section-link">
+      {{ page.section | capitalize }}
+    </a>
+    {% endif %}
+
+    <h1 class="article-headline">{{ page.title }}</h1>
+
+    {% if page.subtitle %}
+    <p class="article-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+
+    <div class="article-byline">
+      By <span class="article-byline-author">{{ page.author | default: "Staff Reporter" }}</span>
+      {% if page.author_title %}<br><small>{{ page.author_title }}</small>{% endif %}
+    </div>
+
+    <div class="article-date">
+      Published {{ page.date | date: "%B %d, %Y at %I:%M %p" }}
+      {% if page.updated %}
+      <br>Updated {{ page.updated | date: "%B %d, %Y at %I:%M %p" }}
+      {% endif %}
+      {% if page.reading_time %} &middot; {{ page.reading_time }} min read{% endif %}
+    </div>
+  </header>
+
+  {% if page.image %}
+  <figure class="article-hero-image">
+    <img src="{{ page.image.url }}" alt="{{ page.title }}">
+    {% if page.image.caption %}
+    <figcaption>
+      {{ page.image.caption }}
+      {% if page.image.credit %}<span class="credit">{{ page.image.credit }}</span>{% endif %}
+    </figcaption>
+    {% endif %}
+  </figure>
+  {% endif %}
+
+  {% if page.audio_url %}
+  <div class="podcast-player">
+    <p class="podcast-player-title">🎧 Listen to this article</p>
+    <audio controls src="{{ page.audio_url }}">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  {% endif %}
+
+  <div class="article-body">
+    {{ content }}
+  </div>
+
+  {% if page.sources %}
+  <div class="article-sources">
+    <h3>Sources</h3>
+    <ul>
+      {% for source in page.sources %}
+      <li><a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if page.verification %}
+  <div class="article-verification">
+    <p><strong>Verification Status:</strong> {{ page.verification.status | capitalize }}
+    ({{ page.verification.confidence }} confidence)</p>
+  </div>
+  {% endif %}
+
+  <footer class="article-footer">
+    {% if page.tags %}
+    <div class="article-tags">
+      {% for tag in page.tags %}
+      <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag">#{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </footer>
+</article>
