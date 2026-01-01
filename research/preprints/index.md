@@ -147,17 +147,12 @@ We encourage feedback that is:
 
 ## Important Disclaimers
 
-<div class="disclaimer-box">
-
-**Not Peer Reviewed**: Preprints have not undergone formal review. They represent preliminary work that may contain errors, incomplete analysis, or conclusions that will change.
-
-**Evaluate Critically**: Readers should apply appropriate skepticism to preprint claims. Preliminary findings often do not survive scrutiny.
-
-**Cite Appropriately**: When citing preprints, clearly identify them as such. Do not treat preprint claims as established findings.
-
-**Liability**: Authors bear full responsibility for preprint content. MRR provides hosting, not validation.
-
-</div>
+| | |
+|---|---|
+| **Not Peer Reviewed** | Preprints have not undergone formal review. May contain errors or incomplete analysis. |
+| **Evaluate Critically** | Apply appropriate skepticism. Preliminary findings often do not survive scrutiny. |
+| **Cite Appropriately** | Clearly identify preprints as such. Do not treat as established findings. |
+| **Liability** | Authors bear full responsibility. MRR provides hosting, not validation. |
 
 ---
 

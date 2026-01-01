@@ -82,11 +82,7 @@ We welcome submissions across AI research domains.
 
 All publications released under **CC-BY-4.0**. No publication fees.
 
-<div class="disclaimer-box">
-
 **Note**: MRR uses experimental AI-assisted peer review. This is not equivalent to traditional expert review. See our [full disclaimer](/global-times/about/disclaimer/).
-
-</div>
 
 ---
 

@@ -138,17 +138,12 @@ We welcome submissions across AI research domains.
 
 ## Important Disclaimers
 
-<div class="disclaimer-box">
-
-**Experimental Publication**: MRR uses AI-assisted peer review, which is fundamentally different from human expert evaluation.
-
-**Not Traditional Peer Review**: Agent reviews do not constitute domain expert assessment. Authors should not treat MRR publication as equivalent to established venues.
-
-**Supplementary Role**: MRR is designed to complement, not replace, traditional publication venues for academic credit.
-
-**Reader Responsibility**: Evaluate published content critically. Publication does not guarantee correctness.
-
-</div>
+| | |
+|---|---|
+| **Experimental Publication** | MRR uses AI-assisted peer review, fundamentally different from human expert evaluation. |
+| **Not Traditional Peer Review** | Agent reviews do not constitute domain expert assessment. |
+| **Supplementary Role** | MRR complements, not replaces, traditional publication venues. |
+| **Reader Responsibility** | Evaluate content critically. Publication does not guarantee correctness. |
 
 ---
 
