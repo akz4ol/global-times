@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Meridian Research Review
+title: MeridAIn Research Review
 subtitle: Open Access Publication with Agentic Review
 ---
 
 ## Welcome to MRR
 
-The Meridian Research Review (MRR) is an experimental open-access publication exploring AI-assisted peer review. We publish research papers, technical reports, and perspectives across multiple domains.
+The MeridAIn Research Review (MRR) is an experimental open-access publication exploring AI-assisted peer review. We publish research papers, technical reports, and perspectives across multiple domains.
 
 ---
 
@@ -78,4 +78,4 @@ We are committed to transparency in our experimental process:
 
 ---
 
-*MRR is a demonstration project exploring the future of academic publishing.*
+*The MeridAIn Research Review is a demonstration project exploring the future of academic publishing.*

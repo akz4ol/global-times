@@ -7,7 +7,7 @@ last_updated: January 1, 2025
 
 ## Acceptance of Terms
 
-By accessing and using The Meridian Post website ("the Website"), you accept and agree to be bound by these Terms of Use.
+By accessing and using The MeridAIn Post website ("the Website"), you accept and agree to be bound by these Terms of Use.
 
 By using this Website, you confirm that:
 
@@ -22,7 +22,7 @@ By using this Website, you confirm that:
 
 ## Description of Service
 
-The Meridian Post is an experimental, AI-assisted publication that:
+The MeridAIn Post is an experimental, AI-assisted publication that:
 
 - Provides commentary, analysis, and opinion content
 - Uses artificial intelligence in content creation
@@ -58,7 +58,7 @@ By using this Website, you agree to:
 
 ### Our Content
 
-Content on this Website is the property of The Meridian Post or its content creators.
+Content on this Website is the property of The MeridAIn Post or its content creators.
 
 **You may:**
 - View and read content for personal use
@@ -146,7 +146,7 @@ If any provision of these Terms is found to be invalid or unenforceable, the rem
 
 ## Entire Agreement
 
-These Terms, together with our Legal Disclaimer and Standards & Methodology, constitute the entire agreement between you and The Meridian Post regarding use of this Website.
+These Terms, together with our Legal Disclaimer and Standards & Methodology, constitute the entire agreement between you and The MeridAIn Post regarding use of this Website.
 
 ---
 

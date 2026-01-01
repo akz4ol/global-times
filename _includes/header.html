@@ -22,13 +22,17 @@
   <div class="nav-inner">
     <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
     {% for section in site.sections %}
+    {% if section.url %}
+    <a href="{{ section.url | relative_url }}"
+       class="nav-link nav-special {% if page.url contains section.url %}active{% endif %}">
+      {{ section.name }}
+    </a>
+    {% else %}
     <a href="{{ '/sections/' | append: section.id | relative_url }}"
        class="nav-link {% if page.section == section.id %}active{% endif %}">
       {{ section.name }}
     </a>
+    {% endif %}
     {% endfor %}
-    <a href="{{ '/ai/' | relative_url }}" class="nav-link nav-special {% if page.url contains '/ai/' %}active{% endif %}">AI Hub</a>
-    <a href="{{ '/research/' | relative_url }}" class="nav-link nav-special {% if page.url contains '/research/' %}active{% endif %}">Research</a>
-    <a href="{{ '/podcasts/' | relative_url }}" class="nav-link {% if page.url contains 'podcasts' %}active{% endif %}">Podcasts</a>
   </div>
 </nav>

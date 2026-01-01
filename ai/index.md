@@ -6,7 +6,7 @@ subtitle: Your Daily Source for Artificial Intelligence Developments
 
 ## Welcome to the AI Hub
 
-The Meridian Post AI Hub is your comprehensive source for artificial intelligence news, research, and analysis. We aggregate and synthesize developments from across the AI landscape to keep you informed.
+The MeridAIn Post AI Hub is your comprehensive source for artificial intelligence news, research, and analysis. We aggregate and synthesize developments from across the AI landscape to keep you informed.
 
 ---
 

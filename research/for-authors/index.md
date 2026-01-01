@@ -6,7 +6,7 @@ subtitle: Templates, Guidelines & Best Practices
 
 ## Getting Started
 
-Welcome to the Meridian Research Review author resources. Here you'll find everything you need to prepare and submit your work.
+Welcome to the MeridAIn Research Review author resources. Here you'll find everything you need to prepare and submit your work.
 
 ---
 

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: About Us
-subtitle: Understanding The Meridian Post
+subtitle: Understanding The MeridAIn Post
 ---
 
 ## Who We Are
 
-The Meridian Post is an independent, experimental digital publication exploring the intersection of artificial intelligence and journalism. We are not a traditional news organization. We are a technology demonstration project that produces news-style content to explore new models of information delivery.
+The MeridAIn Post is an independent, experimental digital publication exploring the intersection of artificial intelligence and journalism. We are not a traditional news organization. We are a technology demonstration project that produces news-style content to explore new models of information delivery.
 
-**Important:** The Meridian Post is an AI-assisted publication. Content is generated, curated, and edited with the assistance of artificial intelligence systems. While we strive for accuracy, readers should verify important information through established news sources.
+**Important:** The MeridAIn Post is an AI-assisted publication. Content is generated, curated, and edited with the assistance of artificial intelligence systems. While we strive for accuracy, readers should verify important information through established news sources.
 
 ---
 
@@ -36,13 +36,13 @@ To be completely clear:
 
 ## Our Team
 
-The Meridian Post is operated by independent developers and researchers interested in the future of media and AI. We do not employ traditional journalists or maintain a newsroom.
+The MeridAIn Post is operated by independent developers and researchers interested in the future of media and AI. We do not employ traditional journalists or maintain a newsroom.
 
 ---
 
 ## Funding
 
-The Meridian Post is a non-commercial project. We do not sell advertising, collect user data for commercial purposes, or generate revenue from our content.
+The MeridAIn Post is a non-commercial project. We do not sell advertising, collect user data for commercial purposes, or generate revenue from our content.
 
 ---
 

@@ -1,9 +1,9 @@
-# The Meridian Post - Digital Newspaper
+# The MeridAIn Post - AI-Powered Digital Newspaper
 # GitHub Pages Jekyll Configuration
 
-title: The Meridian Post
+title: The MeridAIn Post
 tagline: "Where Every Story Finds Its True North"
-description: "An independent, multi-perspective news publication delivering verified, balanced journalism from around the globe."
+description: "An independent, AI-powered news publication delivering multi-perspective journalism and research from around the globe."
 url: "https://akz4ol.github.io"
 baseurl: "/global-times"
 
@@ -26,6 +26,11 @@ defaults:
 
 # Sections
 sections:
+  - id: ai
+    name: AI Hub
+    description: Artificial intelligence news, research, and analysis
+    color: "#0066cc"
+    url: /ai/
   - id: world
     name: World
     description: International news and global affairs
@@ -62,6 +67,11 @@ sections:
     name: Sports
     description: Scores, news, and features
     color: "#228B22"
+  - id: research
+    name: Research
+    description: MeridAIn Research Review - Open access publication
+    color: "#6B21A8"
+    url: /research/
 
 # Social
 social:

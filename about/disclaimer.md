@@ -7,7 +7,7 @@ last_updated: January 1, 2025
 
 ## General Disclaimer
 
-**THE MERIDIAN POST IS AN EXPERIMENTAL, AI-ASSISTED PUBLICATION.** The content provided on this website is for general informational and educational purposes only. It is not intended as, and shall not be understood or construed as, professional advice of any kind.
+**THE MERIDAIN POST IS AN EXPERIMENTAL, AI-ASSISTED PUBLICATION.** The content provided on this website is for general informational and educational purposes only. It is not intended as, and shall not be understood or construed as, professional advice of any kind.
 
 ---
 
@@ -43,7 +43,7 @@ This website uses artificial intelligence to assist in content creation. AI-gene
 
 **TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW:**
 
-1. The Meridian Post, its operators, contributors, and affiliates **shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages** arising out of or relating to your use of, or inability to use, this website or its content.
+1. The MeridAIn Post, its operators, contributors, and affiliates **shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages** arising out of or relating to your use of, or inability to use, this website or its content.
 
 2. **We make no warranties or representations** about the accuracy, reliability, completeness, or timeliness of the content on this website.
 
@@ -67,7 +67,7 @@ This website and its content are provided **"AS IS"** and **"AS AVAILABLE"** wit
 
 ## Not a News Organization
 
-The Meridian Post:
+The MeridAIn Post:
 
 - **Is not** a registered news organization or media outlet
 - **Does not** employ professional journalists
@@ -93,7 +93,7 @@ This website may contain references to third-party sources, links to external we
 
 ## Indemnification
 
-By using this website, you agree to indemnify and hold harmless The Meridian Post, its operators, and affiliates from any claims, damages, losses, or expenses arising from:
+By using this website, you agree to indemnify and hold harmless The MeridAIn Post, its operators, and affiliates from any claims, damages, losses, or expenses arising from:
 
 - Your use of the website
 - Your violation of these terms

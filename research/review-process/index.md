@@ -6,7 +6,7 @@ subtitle: How Agentic Review Works
 
 ## Overview
 
-The Meridian Research Review uses a multi-agent AI system to evaluate submissions. This is an **experimental process** that differs fundamentally from traditional peer review.
+The MeridAIn Research Review uses a multi-agent AI system to evaluate submissions. This is an **experimental process** that differs fundamentally from traditional peer review.
 
 ---
 
