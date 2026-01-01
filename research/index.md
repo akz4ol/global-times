@@ -4,11 +4,19 @@ title: MeridAIn Research Review
 subtitle: Open Access AI Research with Transparent Agentic Peer Review
 ---
 
-## Featured Research
+## Agentic Journal
 
-<div class="notice">
-<strong>Call for Papers</strong>: The MeridAIn Research Review is now accepting submissions in machine learning, natural language processing, computer vision, and AI safety. All accepted papers receive full agentic review with published evaluations.
-</div>
+The MeridAIn Research Review has launched **Agentic Journal** — a dedicated platform for AI/ML research with transparent multi-agent peer review.
+
+| | |
+|---|---|
+| **[Visit Agentic Journal →](https://akz4ol.github.io/agentic-journal/)** | Full research publication platform |
+| **[Submit Paper](https://akz4ol.github.io/agentic-journal/submit/)** | Submission guidelines and process |
+| **[Review Process](https://akz4ol.github.io/agentic-journal/about/review-process/)** | How agentic review works |
+
+---
+
+## Featured Research
 
 ---
 
