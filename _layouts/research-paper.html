@@ -1,0 +1,107 @@
+---
+layout: default
+---
+<article class="research-paper">
+  <header class="paper-header">
+    <div class="paper-meta">
+      <span class="paper-type">{{ page.paper_type | default: "Research Paper" }}</span>
+      <span class="paper-date">Published: {{ page.publication_date | date: "%B %d, %Y" }}</span>
+    </div>
+    <h1 class="paper-title">{{ page.title }}</h1>
+
+    <div class="paper-authors">
+      {% for author in page.authors %}
+      <div class="author">
+        <span class="author-name">{{ author.name }}</span>
+        {% if author.affiliation %}
+        <span class="author-affiliation">{{ author.affiliation }}</span>
+        {% endif %}
+        {% if author.orcid %}
+        <a href="https://orcid.org/{{ author.orcid }}" class="author-orcid" target="_blank">ORCID</a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </header>
+
+  <div class="paper-abstract">
+    <h2>Abstract</h2>
+    <p>{{ page.abstract }}</p>
+    {% if page.keywords %}
+    <div class="paper-keywords">
+      <strong>Keywords:</strong>
+      {% for keyword in page.keywords %}
+      <span class="keyword">{{ keyword }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="paper-info">
+    <table>
+      {% if page.doi %}
+      <tr>
+        <th>DOI</th>
+        <td>{{ page.doi }}</td>
+      </tr>
+      {% endif %}
+      {% if page.submission_date %}
+      <tr>
+        <th>Submitted</th>
+        <td>{{ page.submission_date | date: "%B %d, %Y" }}</td>
+      </tr>
+      {% endif %}
+      {% if page.acceptance_date %}
+      <tr>
+        <th>Accepted</th>
+        <td>{{ page.acceptance_date | date: "%B %d, %Y" }}</td>
+      </tr>
+      {% endif %}
+      {% if page.review_type %}
+      <tr>
+        <th>Review Type</th>
+        <td>{{ page.review_type }}</td>
+      </tr>
+      {% endif %}
+      {% if page.license %}
+      <tr>
+        <th>License</th>
+        <td>{{ page.license }}</td>
+      </tr>
+      {% endif %}
+      {% if page.data_availability %}
+      <tr>
+        <th>Data</th>
+        <td><a href="{{ page.data_availability }}">Available</a></td>
+      </tr>
+      {% endif %}
+      {% if page.code_availability %}
+      <tr>
+        <th>Code</th>
+        <td><a href="{{ page.code_availability }}">Available</a></td>
+      </tr>
+      {% endif %}
+    </table>
+  </div>
+
+  <div class="paper-body">
+    {{ content }}
+  </div>
+
+  {% if page.review_transparency == 'open' %}
+  <div class="paper-reviews">
+    <h2>Peer Reviews</h2>
+    <p class="review-notice">This paper underwent agentic review. Reviews are published for transparency.</p>
+    <p><a href="{{ page.url | append: 'reviews/' | relative_url }}">View Reviews</a></p>
+  </div>
+  {% endif %}
+
+  <div class="paper-disclaimer">
+    <h3>Important Notice</h3>
+    <p>This paper was reviewed through an experimental agentic review process. This is not equivalent to traditional peer review. See our <a href="{{ '/about/disclaimer/' | relative_url }}">Legal Disclaimer</a> for more information.</p>
+  </div>
+
+  <footer class="paper-footer">
+    <p><a href="{{ '/research/' | relative_url }}">&larr; Back to Research Home</a></p>
+  </footer>
+</article>

@@ -594,7 +594,8 @@ img {
     font-size: 1.75rem;
   }
 
-  .main-nav a {
+  .main-nav a,
+  .nav-main a {
     padding: 0.75rem 0.875rem;
     font-size: 0.75rem;
   }
@@ -603,4 +604,249 @@ img {
     font-size: 0.75rem;
     padding: 0.5rem;
   }
+}
+
+/* ===== Nav Main (Alternative Navigation) ===== */
+.nav-main {
+  background: var(--color-ink);
+  padding: 0;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.875rem 1.25rem;
+  color: white;
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: background 0.2s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background: var(--color-accent);
+  text-decoration: none;
+}
+
+/* Special Navigation Links (AI Hub, Research) */
+.nav-special {
+  background: rgba(255,255,255,0.1);
+}
+
+.nav-special:hover,
+.nav-special.active {
+  background: #0066cc;
+}
+
+/* ===== AI Hub Sections ===== */
+.ai-sections-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.ai-sections-grid h3 {
+  margin-top: 0;
+  font-family: var(--font-display);
+  color: var(--color-ink);
+}
+
+.ai-sections-grid h3 a {
+  color: var(--color-ink);
+}
+
+.ai-sections-grid h3 a:hover {
+  color: var(--color-accent);
+}
+
+/* ===== Research Paper Layout ===== */
+.research-paper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.paper-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.paper-meta {
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  margin-bottom: 1rem;
+}
+
+.paper-meta .paper-type {
+  background: var(--color-section);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 3px;
+  margin-right: 1rem;
+}
+
+.paper-title {
+  font-family: var(--font-display);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+.paper-authors {
+  margin-top: 1.5rem;
+}
+
+.paper-authors .author {
+  margin-bottom: 0.5rem;
+}
+
+.paper-authors .author-name {
+  font-weight: 600;
+}
+
+.paper-authors .author-affiliation {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.paper-authors .author-affiliation::before {
+  content: " - ";
+}
+
+.paper-authors .author-orcid {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.paper-abstract {
+  background: #f5f5f0;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-left: 4px solid var(--color-accent);
+}
+
+.paper-abstract h2 {
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.paper-abstract p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.paper-keywords {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.paper-keywords .keyword {
+  display: inline-block;
+  background: white;
+  padding: 0.2rem 0.5rem;
+  margin: 0.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+}
+
+.paper-info {
+  margin: 2rem 0;
+}
+
+.paper-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.paper-info th,
+.paper-info td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.paper-info th {
+  width: 150px;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
+.paper-body {
+  margin: 2rem 0;
+}
+
+.paper-body h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.paper-body h3 {
+  font-size: 1.25rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.paper-reviews {
+  background: #e8f4f8;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+.paper-reviews h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.review-notice {
+  font-style: italic;
+  color: var(--color-muted);
+}
+
+.paper-disclaimer {
+  background: #fff3cd;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  border: 1px solid #ffc107;
+  border-radius: 4px;
+}
+
+.paper-disclaimer h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #856404;
+}
+
+.paper-disclaimer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #856404;
+}
+
+.paper-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
 }
