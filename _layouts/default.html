@@ -15,6 +15,11 @@
   <link rel="stylesheet" href="{{ '/assets/css/newspaper.css' | relative_url }}">
 </head>
 <body>
+  <!-- AI Disclaimer Banner -->
+  <div class="disclaimer-banner">
+    <strong>Notice:</strong> This is an AI-assisted experimental publication. Content may contain errors. <a href="{{ '/about/disclaimer/' | relative_url }}">Read our disclaimer</a>.
+  </div>
+
   <!-- Header -->
   <header class="site-header">
     <div class="header-top">
@@ -45,6 +50,7 @@
       <div class="footer-brand">
         <h3>{{ site.title }}</h3>
         <p>{{ site.tagline }}</p>
+        <p class="footer-disclaimer">This is an AI-assisted experimental publication. Not a news organization.</p>
       </div>
       <div class="footer-sections">
         <h4>Sections</h4>
@@ -58,13 +64,23 @@
         <h4>About</h4>
         <ul>
           <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
-          <li><a href="{{ '/about/' | relative_url }}">Our Standards</a></li>
-          <li><a href="{{ '/about/' | relative_url }}">Contact</a></li>
+          <li><a href="{{ '/about/standards/' | relative_url }}">Our Standards</a></li>
+          <li><a href="{{ '/about/disclaimer/' | relative_url }}">Disclaimer</a></li>
+          <li><a href="{{ '/about/terms/' | relative_url }}">Terms of Use</a></li>
         </ul>
       </div>
     </div>
+    <div class="footer-legal">
+      <p><strong>Important:</strong> Content is AI-generated and may contain errors. This is not professional journalism. Do not rely on this content for legal, medical, financial, or other important decisions. <a href="{{ '/about/disclaimer/' | relative_url }}">Full Disclaimer</a></p>
+    </div>
     <div class="footer-bottom">
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. Independent journalism for a connected world.</p>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. An experimental AI publication.</p>
+      <p class="footer-links">
+        <a href="{{ '/about/' | relative_url }}">About</a> |
+        <a href="{{ '/about/standards/' | relative_url }}">Standards</a> |
+        <a href="{{ '/about/disclaimer/' | relative_url }}">Disclaimer</a> |
+        <a href="{{ '/about/terms/' | relative_url }}">Terms</a>
+      </p>
     </div>
   </footer>
 

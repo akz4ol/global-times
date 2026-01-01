@@ -1,35 +1,50 @@
 ---
 layout: default
-title: About
+title: About Us
 ---
 
 <article class="article-page">
 
 # About The Meridian Post
 
-The Meridian Post is an independent, AI-assisted news publication committed to delivering verified, balanced journalism from around the globe. Our name reflects our mission: to serve as a true north for news, where every story finds its proper bearing.
+## Who We Are
 
-## Our Approach
+The Meridian Post is an independent, experimental digital publication exploring the intersection of artificial intelligence and journalism. We are not a traditional news organization. We are a technology demonstration project that produces news-style content to explore new models of information delivery.
 
-- **Verification First**: Every claim is checked against multiple sources before publication
-- **Multi-Perspective Coverage**: We present diverse viewpoints on complex issues
-- **Transparency**: We disclose our sources and confidence levels
-- **Independence**: Editorial decisions are made without commercial influence
+**Important:** The Meridian Post is an AI-assisted publication. Content is generated, curated, and edited with the assistance of artificial intelligence systems. While we strive for accuracy, readers should verify important information through established news sources.
 
-## Verification Standards
+## Our Mission
 
-| Level | Meaning |
-|-------|---------|
-| **High Confidence** | Confirmed by 3+ independent sources |
-| **Medium Confidence** | Corroborated by 2+ reliable sources |
-| **Developing** | Story is ongoing, details may change |
+We aim to demonstrate how AI tools can assist in:
+- Aggregating and synthesizing information from multiple sources
+- Providing multi-perspective analysis on complex topics
+- Creating accessible explanations of complicated issues
+- Exploring new formats for news delivery
+
+## What We Are NOT
+
+To be completely clear:
+
+- **We are not a replacement for professional journalism.** We encourage readers to support established news organizations.
+- **We are not a primary news source.** Our content should be considered commentary and analysis, not original reporting.
+- **We are not staffed by professional journalists.** Our content is AI-assisted and should be evaluated accordingly.
+- **We do not conduct original investigations.** We synthesize and analyze publicly available information.
+
+## Our Team
+
+The Meridian Post is operated by independent developers and researchers interested in the future of media and AI. We do not employ traditional journalists or maintain a newsroom.
+
+## Funding
+
+The Meridian Post is a non-commercial project. We do not sell advertising, collect user data for commercial purposes, or generate revenue from our content.
 
 ## Contact
 
-For corrections, tips, or inquiries, please reach out through our GitHub repository.
+For inquiries, corrections, or feedback:
+- GitHub: [github.com/akz4ol/global-times](https://github.com/akz4ol/global-times)
 
 ---
 
-*The Meridian Post is an experimental publication exploring the intersection of AI and journalism.*
+**Please read our [Standards & Methodology](/global-times/about/standards/) and [Legal Disclaimer](/global-times/about/disclaimer/) for important information about how our content is created and the limitations of our publication.**
 
 </article>

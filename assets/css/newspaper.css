@@ -525,6 +525,61 @@ img {
   margin: 2rem 0;
 }
 
+/* ===== Disclaimer Banner ===== */
+.disclaimer-banner {
+  background: #fff3cd;
+  color: #856404;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  border-bottom: 1px solid #ffc107;
+}
+
+.disclaimer-banner a {
+  color: #533f03;
+  text-decoration: underline;
+}
+
+.disclaimer-banner a:hover {
+  color: #1d1606;
+}
+
+/* ===== Footer Legal ===== */
+.footer-legal {
+  background: rgba(255,255,255,0.05);
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.7);
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-legal a {
+  color: rgba(255,255,255,0.9);
+}
+
+.footer-disclaimer {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.5);
+  margin-top: 0.5rem;
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  color: rgba(255,255,255,0.6);
+  margin: 0 0.25rem;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
   .site-title {
@@ -542,5 +597,10 @@ img {
   .main-nav a {
     padding: 0.75rem 0.875rem;
     font-size: 0.75rem;
+  }
+
+  .disclaimer-banner {
+    font-size: 0.75rem;
+    padding: 0.5rem;
   }
 }
